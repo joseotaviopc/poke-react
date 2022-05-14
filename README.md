@@ -18,8 +18,9 @@ Para isso, temos a dependência de desenvolvimento já instalada (json-server), 
 
 - [ ] Página `/list` mostrar os meus pokemons (json-server) e dar a opção de adicionar pokemon, caso não tenham 6 cadastrados (máximo)
 - [ ] Ao clicar em adicionar pokemon, ou pokemon já existente na lista, ir para a página `/detail/:id`
-- [ ] Para editar ou adicionar, apresentar um select, e preencher com os dados vindos da PokeAPI. Ex: `https://pokeapi.co/api/v2/pokemon?limit=151` para trazer os nomes dos primeiros 151 pokemons.
-- [ ] Ao selecionar um pokemon no select, consultar a PokeAPI com o id (Ex: `https://pokeapi.co/api/v2/pokemon/25` para Pikachu), e mostrar as informações em um card que preferir (nome, foto, tipo etc.)
+- [x] Para editar ou adicionar, apresentar um Grid, e preencher com os dados vindos da PokeAPI. Ex: `https://pokeapi.co/api/v2/pokemon?limit=151` para trazer os nomes dos primeiros 151 pokemons.
+- [x] Ao selecionar um pokemon no select, consultar a PokeAPI com o id (Ex: `https://pokeapi.co/api/v2/pokemon/25` para Pikachu)
+- [x] mostrar as informações em um card que preferir (nome, foto, tipo etc.)
 - [ ] Ao confirmar, caso esteja adicionando um novo, salvar (POST) ou atualizar (PUT) na api local (json-server)
 
 ## Extra Features
